@@ -1,0 +1,48 @@
+/* reset.css */
+/* Eric Meyer's Reset CSS v2.0 - http://meyerweb.com/eric/tools/css/reset/ */
+
+/* Remove default padding and margin */
+body, figure, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dd, ol, ul, fieldset, legend, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font size and family */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Remove list styles (bullets/numbers) */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default block margins */
+blockquote, figure {
+    margin: 0;
+}
+
+/* Remove default table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset line heights */
+body, button, input, select, textarea {
+    line-height: 1.5;
+}
+
+/* Remove border outlines for links and buttons in many browsers */
+a, button {
+    text-decoration: none;
+    outline: none;
+}
+
+/* Ensure visible focus styles, for accessibility */
+a:focus, button:focus {
+    outline: 2px solid #333;
+}
+
+/* Additional styles for improved layout and usability can be added as needed */
